@@ -15,7 +15,7 @@
   "parts": {
     "bluprint part": [
       "used/*.js",
-      "USEME.md"
+      "README.md"
     ]
   }
 }
