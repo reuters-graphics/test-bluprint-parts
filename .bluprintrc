@@ -2,5 +2,20 @@
   "bluprint": "^0.0.1",
   "name": "test bluprint parts",
   "category": "tests",
-  "actions": []
+  "actions": [{
+    "action": "render",
+    "engine": "mustache",
+    "files": ["used/index.js"]
+  }, {
+    "action": "render",
+    "engine": "mustache",
+    "files": ["used/noaction.js"],
+    "condition": ["bluprintPart", null]
+  }],
+  "parts": {
+    "bluprint part": [
+      "used/*.js",
+      "README.md"
+    ]
+  }
 }
