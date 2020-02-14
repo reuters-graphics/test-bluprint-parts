@@ -1,1 +1,1 @@
-console.log('Using {{ blueprintPart }}!');
+console.log('Using {{ bluprintPart }}!');
